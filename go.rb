@@ -121,9 +121,9 @@ end
 
 output = []
 
-puts "Opening #{opts[:path]}..."
+puts "Opening #{opts[:input]}..."
 
-xlsx = Roo::Spreadsheet.open(opts[:path])
+xlsx = Roo::Spreadsheet.open(opts[:input])
 
 OUTPUT_FIELDS = [ 'Trade Date',
                   'Instrument Code',
