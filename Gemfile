@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "roo", "~> 2.7.0"
+gem "roo", "~> 2.7.1"
 gem 'slop'
 gem 'stock_quote'
 gem 'openssl'
